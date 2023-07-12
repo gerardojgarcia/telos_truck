@@ -1,16 +1,11 @@
 <template>
-
-<NuxtLayout>
-
-<NuxtPage/>
-
-</NuxtLayout>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
-<style >
-
+<style>
 * {
-  background-color: black;
+  background-color: #052e16;
   color: white;
 }
-
 </style>

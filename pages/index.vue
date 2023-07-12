@@ -12,5 +12,5 @@ import AppHero from '/components/AppHero.vue'
 
 </template>
 
-<style lang="css" scoped>
+<style scoped>
 </style>
