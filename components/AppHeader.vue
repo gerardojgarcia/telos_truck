@@ -3,9 +3,9 @@ import AppLinkButton from "/components/AppLinkButton.vue";
 </script>
 
 <template>
-  <header class="flex space-between bg-green-950 py-4 px-6">
+  <header class="flex space-between bg-green-950 px-6 items-center">
     <p class="logo bg-transparent w-32">Telos</p>
-    <nav class="flex space-x-6 space-evenly bg-transparent w-full">
+    <nav class="flex space-x-6 space-evenly items-center bg-transparent w-full">
       <NuxtLink to="/" class="nav-link">Size</NuxtLink>
       <NuxtLink to="/" class="nav-link">Performance </NuxtLink>
       <NuxtLink to="/" class="nav-link">Configurations</NuxtLink>
@@ -23,10 +23,15 @@ import AppLinkButton from "/components/AppLinkButton.vue";
 .nav-link {
   background-color: #052e16;
   padding: 1rem;
+  transition: all 200ms;
+}
+
+.nav-link:hover {
+  color: #22c55e;
 }
 
 nav {
-  margin-left: 40rem;
+  margin-left: 41rem;
   text-transform: uppercase;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;

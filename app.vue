@@ -5,7 +5,7 @@
 </template>
 <style>
 * {
-  background-color: #052e16;
+  background-color: white;
   color: white;
 }
 </style>
