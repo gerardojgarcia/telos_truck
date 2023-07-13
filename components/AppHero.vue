@@ -9,10 +9,16 @@
         <p class="text-8xl uppercase bg-transparent">Adventure</p>
         <p class="text-8xl uppercase bg-transparent">Vehicles</p>
       </div>
-      <div class="text-btns py-6 bg-transparent h-32 w-32">
-        <button class="p-6 h-32 w-32">
-          <Icon name="ri:arrow-left-s-line" color="black" />
+      <div
+        class="text-btns py-6 flex justify-center items-center self-end bg-transparent"
+      >
+        <button class="p-1 bg-transparent">
+          <Icon name="ri:arrow-left-s-line" id="arrow-left" />
         </button>
+        <button class="p-1 bg-transparent">
+          <Icon name="ri:arrow-right-s-line" id="arrow-right" />
+        </button>
+        <div class="line-div"></div>
       </div>
     </div>
 
@@ -37,10 +43,29 @@
 }
 
 .hero__text-title {
-  transform: translateY(20rem) translateX(15rem);
+  transform: translateY(20rem) translateX(13rem);
 }
 
 .text-btns {
   margin-top: 35vh;
+}
+
+#arrow-left {
+  width: 2em;
+  height: 2em;
+
+  background-color: transparent;
+}
+
+#arrow-right {
+  width: 2em;
+  height: 2em;
+
+  background-color: transparent;
+}
+.line-div {
+  background-color: grey;
+  height: 1px;
+  width: 17rem;
 }
 </style>
