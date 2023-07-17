@@ -12,10 +12,10 @@
       <div
         class="text-btns py-6 flex justify-center items-center self-end bg-transparent"
       >
-        <button class="p-1 bg-transparent">
+        <button class="bg-transparent">
           <Icon name="ri:arrow-left-s-line" id="arrow-left" />
         </button>
-        <button class="p-1 bg-transparent">
+        <button class="bg-transparent">
           <Icon name="ri:arrow-right-s-line" id="arrow-right" />
         </button>
         <div class="line-div"></div>
