@@ -21,7 +21,7 @@
             footprint of a MINI Cooper, TELOS is the most compact, practical and
             technically advanced truck.
           </p>
-          <p class="pb-8">
+          <p class="pb-32">
             Meeting the need for a highly functional and powerful EV pickup equally suited
             to navigating downtown adn hauling people adn gear out of town.
           </p>
@@ -31,16 +31,16 @@
         </div>
       </div>
       <div
-        class="features__images flex flex-col md:flex-row items-center justify-center pt-24 w-3/4 self-center"
+        class="features__images flex flex-col md:flex-row items-center justify-center pt-12 w-3/4 self-center"
       >
         <nuxt-img
           src="/truck2.webp"
-          sizes="sm:100vw md:50vw lg:35vw"
+          sizes="sm:100vw md:50vw lg:40vw"
           id="features-img-1"
         ></nuxt-img>
         <nuxt-img
           src="/truck9.webp"
-          sizes="sm:100vw md:50vw lg:35vw"
+          sizes="sm:100vw md:50vw lg:25vw"
           id="features-img-2"
         ></nuxt-img>
       </div>
@@ -63,11 +63,16 @@
 }
 
 #features-img-1 {
-  transform: translateY(-5rem);
-  z-index: 2;
+  transform: translateY(2rem) translateX(8rem);
 }
 
 #features-img-2 {
-  transform: translateY(2rem) translateX(-5rem);
+  transform: translateY(-7rem) translateX(4rem);
+  z-index: 2;
+}
+
+.features__images {
+  transform: translateY(-3rem);
+  background-color: transparent;
 }
 </style>
