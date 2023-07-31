@@ -6,7 +6,7 @@
       <p class="subtitle text-5xl text-gray-700">in the footprint of a MINI Cooper</p>
     </div>
 
-    <div class="truck-size">
+    <div class="truck-size flex space-x-16 ">
       <div class="text-box-left w-1/3">
         <p class="text-2xl text-black font-bold">4 Doors/5 Adults</p>
         <p class="text-gray-400">
@@ -14,8 +14,15 @@
         </p>
         <div class="doors p-4"></div>
       </div>
+      <div class="text-box-right w-1/3">
+        <p class="text-2xl text-black font-bold">4 Doors/5 Adults</p>
+        <p class="text-gray-400">
+          Same interior space as a Toyota Tacoma in the lengt of a MINI Cooper SE
+        </p>
+        <div class="length"></div>
+      </div>
 
-      <div class="length"></div>
+      
     </div>
 
     <div class="truck-specs-img flex px-64">
@@ -47,5 +54,9 @@
   border-right: 1px solid black;
 
   height: 1rem;
+}
+
+.truck-size {
+  max-width: 50rem;
 }
 </style>
