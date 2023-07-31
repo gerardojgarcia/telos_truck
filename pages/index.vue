@@ -2,6 +2,7 @@
 import AppHero from "/components/AppHero.vue";
 import AppFeatures from "/components/AppFeatures.vue";
 import AppSpecs from "/components/AppSpecs.vue";
+import AppPerformance from "/components/AppPerformance.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import AppSpecs from "/components/AppSpecs.vue";
     <AppHero />
     <AppFeatures />
     <AppSpecs />
+    <AppPerformance />
   </div>
 </template>
 
