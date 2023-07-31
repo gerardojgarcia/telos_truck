@@ -37,11 +37,13 @@
           src="/truck2.webp"
           sizes="sm:100vw md:50vw lg:40vw"
           id="features-img-1"
+          class="grayscale hover:filter-none duration-150"
         ></nuxt-img>
         <nuxt-img
           src="/truck9.webp"
           sizes="sm:100vw md:50vw lg:25vw"
           id="features-img-2"
+          class="grayscale hover:filter-none duration-150"
         ></nuxt-img>
       </div>
     </div>
