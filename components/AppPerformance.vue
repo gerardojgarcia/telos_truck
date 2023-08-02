@@ -6,7 +6,7 @@
       <p class="text-gray-400">
         Standard crew-cab 5-seat, 5-foot bed capacity with a configurable mid-partition
         that either increases bed size to accomodate 4' x 8' plywood sheets with the
-        tailgate up, or allws for additional seating for up to 8 passengers.
+        tailgate up, or allows for additional seating for up to 8 passengers.
       </p>
     </div>
     <nuxt-img src="/truck7.webp"></nuxt-img>
