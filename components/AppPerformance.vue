@@ -6,8 +6,8 @@ const performance = ref({
 });
 </script>
 <template>
-  <div id="performance" class="py-32">
-    <div>
+  <div id="performance" class="py-32 flex md:flex-row flex-col">
+    <div class="w-1/2">
       <h3 class="text-black text-4xl">Designed to do more with less</h3>
       <p class="text-gray-400">
         Standard crew-cab 5-seat, 5-foot bed capacity with a configurable mid-partition
@@ -15,12 +15,22 @@ const performance = ref({
         tailgate up, or allows for additional seating for up to 8 passengers.
       </p>
     </div>
-    <div>
-      <nuxt-img src="/truck7.webp"></nuxt-img>
-      <div class="performance-details grid grid-cols-3 bg-gray-600 text-white py-16">
-        <div class="speed bg-transparent">
+    <div class="w-1/2">
+      <nuxt-img src="/truck7.webp" sizes="lg:100vw"></nuxt-img>
+      <div
+        class="performance-details grid grid-cols-3 place-content-center bg-gray-600 text-white py-16"
+      >
+        <div class="speed bg-transparent m-auto text-center">
           <p class="text-white text-4xl bg-transparent">{{ performance.speed }}s</p>
-          <p class="text-green-300 bg-transparent">0-60</p>
+          <p class="text-green-300 bg-transparent font-bold">0-60</p>
+        </div>
+        <div class="speed bg-transparent m-auto text-center">
+          <p class="text-white text-4xl bg-transparent">{{ performance.range }}mi</p>
+          <p class="text-green-300 bg-transparent font-bold">Range</p>
+        </div>
+        <div class="speed bg-transparent m-auto text-center">
+          <p class="text-white text-4xl bg-transparent">{{ performance.power }}hp</p>
+          <p class="text-green-300 bg-transparent font-bold">Power</p>
         </div>
       </div>
     </div>
