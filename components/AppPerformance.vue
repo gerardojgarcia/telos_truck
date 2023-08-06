@@ -7,15 +7,15 @@ const performance = ref({
 </script>
 <template>
   <div id="performance" class="py-32 flex md:flex-row flex-col">
-    <div class="w-1/2">
-      <h3 class="text-black text-4xl">Designed to do more with less</h3>
-      <p class="text-gray-400">
+    <div class="w-1/2 px-16 pl-32">
+      <h3 class="text-black text-5xl">Designed to do more with less</h3>
+      <p class="text-gray-400 w-1/2">
         Standard crew-cab 5-seat, 5-foot bed capacity with a configurable mid-partition
         that either increases bed size to accomodate 4' x 8' plywood sheets with the
         tailgate up, or allows for additional seating for up to 8 passengers.
       </p>
     </div>
-    <div class="w-1/2">
+    <div class="w-1/2 -translate-y-52 -translate-x-32">
       <nuxt-img src="/truck7.webp" sizes="lg:100vw"></nuxt-img>
       <div
         class="performance-details grid grid-cols-3 place-content-center bg-gray-600 text-white py-16"

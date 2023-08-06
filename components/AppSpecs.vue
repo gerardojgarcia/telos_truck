@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <div id="specs" class="bg-black py-32 flex flex-col">
+  <div id="specs" class="bg-black pt-32 pb-64   flex flex-col">
     <div class="specs__title px-16 w-1/2 self-center text-center pb-16">
       <h3 class="text-center text-5xl text-gray-700">Tacoma capacity</h3>
       <p class="subtitle text-5xl text-gray-700">in the footprint of a MINI Cooper</p>
