@@ -25,11 +25,11 @@ const performance = ref({
           <p class="text-green-300 bg-transparent font-bold">0-60</p>
         </div>
         <div class="speed bg-transparent m-auto text-center">
-          <p class="text-white text-4xl bg-transparent">{{ performance.range }}mi</p>
+          <p class="text-white text-5xl bg-transparent">{{ performance.range }}mi</p>
           <p class="text-green-300 bg-transparent font-bold">Range</p>
         </div>
         <div class="speed bg-transparent m-auto text-center">
-          <p class="text-white text-4xl bg-transparent">{{ performance.power }}hp</p>
+          <p class="text-white text-5xl bg-transparent">{{ performance.power }}hp</p>
           <p class="text-green-300 bg-transparent font-bold">Power</p>
         </div>
 

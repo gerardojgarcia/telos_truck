@@ -34,6 +34,8 @@
 </template>
 
 <style lang="css" scoped>
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
 .hero__image {
   height: 1000px;
   width: 1400px;
