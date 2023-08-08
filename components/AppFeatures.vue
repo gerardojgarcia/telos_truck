@@ -10,7 +10,7 @@
 
       <div class="features__list flex py-16 w-3/4 bg-transparent">
         <div class="list-line border-b-2 w-1/2 self-start mx-16 pt-4"></div>
-        <div class="list-text space-y-8 w-1/2">
+        <div class="list-text space-y-8 w-1/2 text-gray-400">
           <p>
             We redesigned the EVtruck footprint wand function fomr the ground up by
             marrying the state of the art in electrification and advanced safety
@@ -50,8 +50,14 @@
   </div>
 </template>
 <style scoped>
+
+ @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 * {
   color: black;
+}
+
+h2 {
+  font-family: 'Sora', sans-serif;
 }
 
 .features-link {

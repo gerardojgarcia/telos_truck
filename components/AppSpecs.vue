@@ -51,8 +51,15 @@
   </div>
 </template>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
 * {
   background-color: #efefef;
+
+}
+
+h3{
+  font-family: 'Sora', sans-serif;
 }
 
 .doors {
