@@ -15,10 +15,10 @@ const performance = ref({
         tailgate up, or allows for additional seating for up to 8 passengers.
       </p>
     </div>
-    <div class="w-1/2 -translate-y-52 -translate-x-32">
-      <nuxt-img src="/truck7.webp" sizes="lg:100vw"></nuxt-img>
+    <div class="w-1/2 -translate-y-52 -translate-x-32 shadow-sm">
+      <nuxt-img src="/truck1.webp" sizes="lg:100vw"></nuxt-img>
       <div
-        class="performance-details grid grid-cols-3 place-content-center bg-gray-600 text-white py-16"
+        class="performance-details grid grid-cols-3 place-content-center bg-gray-700 text-white py-16"
       >
         <div class="speed bg-transparent m-auto text-center">
           <p class="text-white text-5xl bg-transparent">{{ performance.speed }}s</p>
@@ -38,6 +38,7 @@ const performance = ref({
   </div>
 </template>
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 #performance {
   background-color: white;
 }
