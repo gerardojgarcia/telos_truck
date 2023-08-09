@@ -2,12 +2,6 @@
 
 </script>
 
-
-
-
-
-
-
 <template >
   <div id="configuration" class="configuration">
 
