@@ -1,4 +1,30 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+const images = ref([
+ '/truck11.webp',
+'/truck2.webp',
+ '/truck9.webp',
+ '/truck5.webp'
+
+
+])
+
+const activeIndex = ref(0)
+
+const currentImage = computed(() => images.value[activeIndex.value])
+
+const prevImage = ( ) => {
+  activeIndex.value = (activeIndex.value - 1 + images.value.length) % images.value.length
+}
+
+const nextImage = () => {
+
+  activeIndex.value = (activeIndex.value + 1) % images.value.length
+}
+
+
+
+</script>
 
 <template>
   <div id="hero" class="bg-white flex relative">
@@ -13,10 +39,10 @@
         class="text-btns py-6 flex justify-center items-center self-end bg-transparent"
       >
         <button class="bg-transparent">
-          <Icon name="ri:arrow-left-s-line" id="arrow-left" />
+          <Icon name="ri:arrow-left-s-line" id="arrow-left" @click='prevImage' />
         </button>
         <button class="bg-transparent">
-          <Icon name="ri:arrow-right-s-line" id="arrow-right" />
+          <Icon name="ri:arrow-right-s-line" id="arrow-right" @click="nextImage "/>
         </button>
         <div class="line-div"></div>
       </div>
@@ -24,7 +50,7 @@
 
     <div class="hero__image">
       <nuxt-img
-        src="/truck11.webp"
+        :src="currentImage"
         sizes="sm:100vw md:50vw lg:100vw"
         width="1400px"
         height="1000px"
