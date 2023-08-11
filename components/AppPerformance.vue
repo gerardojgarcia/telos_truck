@@ -6,7 +6,7 @@ const performance = ref({
 });
 </script>
 <template>
-  <div id="performance" class="pt-32 pb-16 flex md:flex-row flex-col">
+  <div id="performance" class="pt-32 pb-12 flex md:flex-row flex-col">
     <div class="w-1/2 px-16 pl-52">
       <h4 class="text-black text-5xl mt-16 w-1/2">Designed to do more with less</h4>
       <p class="text-gray-400 w-3/4  mt-12 text-xl">

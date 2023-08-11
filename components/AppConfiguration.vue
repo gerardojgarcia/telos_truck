@@ -22,11 +22,6 @@ const nextImage = () => {
   activeIndex.value = (activeIndex.value + 1) % images.value.length
 }
 
-
-
-
-
-
 </script>
 
 <template >
@@ -51,7 +46,7 @@ const nextImage = () => {
 
 
 
-<div class="image-container overflow-hidden flex">
+<div class="image-container overflow-hidden flex duration-200">
   <nuxt-img
     :src="currentImage"
     sizes="sm:100vw md:50vw lg:55vw"

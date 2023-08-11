@@ -3,8 +3,8 @@ import AppLinkButton from "/components/AppLinkButton.vue";
 </script>
 
 <template>
-  <header class="flex space-between bg-green-950 px-6 items-center">
-    <p class="logo bg-transparent w-32">Telos</p>
+  <header class="flex space-between bg-green-950 px-4 items-center">
+    <nuxt-img src="/TELOS_logo_small.png" sizes="lg:5vw" class="bg-transparent"></nuxt-img>
     <nav class="flex space-x-6 space-evenly items-center bg-transparent w-full">
       <NuxtLink to="/" class="nav-link">Size</NuxtLink>
       <NuxtLink to="/" class="nav-link">Performance </NuxtLink>
