@@ -5,6 +5,7 @@ import AppSpecs from "/components/AppSpecs.vue";
 import AppPerformance from "/components/AppPerformance.vue";
 import AppConfiguration from "/components/AppConfiguration.vue";
 import AppFlexibile from "/components/AppFlexible.vue"
+import AppFooter from "/components/AppFooter.vue"
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import AppFlexibile from "/components/AppFlexible.vue"
     <AppPerformance />
     <AppConfiguration/>
 <AppFlexibile/>
+<AppFooter/>
   </div>
 </template>
 

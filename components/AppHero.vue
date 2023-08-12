@@ -27,7 +27,7 @@ const nextImage = () => {
 </script>
 
 <template>
-  <div id="hero" class="bg-white flex relative">
+  <div id="hero" class="bg-white flex relative mt-16">
     <div class="hero__text bg-green-950 flex flex-col isolate">
       <div class="hero__text-title z-6 bg-transparent">
         <h1 class="text-7xl uppercase bg-transparent">Telos</h1>
