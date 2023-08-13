@@ -27,16 +27,16 @@ const nextImage = () => {
 </script>
 
 <template>
-  <div id="hero" class="bg-white flex relative mt-16">
-    <div class="hero__text bg-green-950 flex flex-col isolate">
-      <div class="hero__text-title z-6 bg-transparent">
+  <div id="hero" class="bg-white flex relative mt-16" data-aos="fade-in" data-aos-duration="1000">
+    <div class="hero__text bg-green-950 flex flex-col  " data-aos="fade-right" data-aos-duration="3000">
+      <div class="hero__text-title z-6 bg-transparent" >
         <h1 class="text-7xl uppercase bg-transparent">Telos</h1>
         <p class="text-8xl uppercase bg-transparent">Urban</p>
         <p class="text-8xl uppercase bg-transparent">Adventure</p>
         <p class="text-8xl uppercase bg-transparent">Vehicles</p>
       </div>
       <div
-        class="text-btns py-6 flex justify-center items-center self-end bg-transparent"
+        class="text-btns py-6 flex justify-center items-center self-end bg-transparent" data-aos="fade-left"
       >
         <button class="bg-transparent">
           <Icon name="ri:arrow-left-s-line" id="arrow-left" @click='prevImage' />
@@ -48,12 +48,13 @@ const nextImage = () => {
       </div>
     </div>
 
-    <div class="hero__image">
+    <div class="hero__image " >
       <nuxt-img
         :src="currentImage"
         sizes="sm:100vw md:50vw lg:100vw"
         width="1400px"
         height="1000px"
+
       />
     </div>
   </div>

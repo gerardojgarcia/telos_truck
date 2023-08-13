@@ -8,10 +8,13 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
-    'nuxt-icon'
+    'nuxt-icon',
+    
 
   ],
 
-  telemetry: false
+  telemetry: false,
+
+
 
 })
