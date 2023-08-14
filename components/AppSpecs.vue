@@ -1,15 +1,15 @@
 <script setup></script>
 <template>
-  <div id="specs" class="bg-black pt-32 pb-64   flex flex-col">
-    <div class="specs__title px-16 w-1/2 self-center text-center pb-16">
+  <div id="specs" class="bg-black pt-32 pb-64   flex flex-col" data-aos="fade-up" data-aos-duration="1500">
+    <div class="specs__title px-16 w-1/2 self-center text-center pb-16" data-aos="fade-left" data-aos-duration="1500">
       <h3 class="text-center text-5xl text-gray-700">Tacoma capacity</h3>
       <p class="subtitle text-5xl text-gray-700">in the footprint of a MINI Cooper</p>
     </div>
 
     <div class="truck-size flex self-end space-x-8">
-      <div class="text-box-left w-1/3">
+      <div class="text-box-left w-1/3 ">
         <p class="text-2xl text-black font-bold">4 Doors/5 Adults</p>
-        <p class="text-gray-400">
+        <p class="text-gray-400 ">
           Same interior space as a Toyota Tacoma in the lengt of a MINI Cooper SE
         </p>
         <div class="doors p-4"></div>
@@ -33,7 +33,7 @@
     </div>
 
     <div
-      class="dimensions grid grid-cols-3 place-items-center m-auto mt-32 border-8 border-white mx-72"
+      class="dimensions grid grid-cols-3 place-items-center m-auto mt-32 border-8 border-white mx-72" data-aos="fade-up" data-aos-duration="200"
     >
       <div class="length flex flex-col justify-center items-center w-full">
         <p class="text-black text-5xl">152in</p>

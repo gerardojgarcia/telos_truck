@@ -25,7 +25,7 @@ const nextImage = () => {
 </script>
 
 <template >
-  <div id="configuration" class="configuration flex flex-col py-32 ">
+  <div id="configuration" class="configuration flex flex-col py-32 " data-aos="fade-up">
     <div class="configuration-title flex flex-col md:flex-row justify-center ">
 <div class="configuration-title-text ml-52 w-1/4">
   <h5 class="text-black text-5xl translate-y-24">Built to handle everything you need</h5>
