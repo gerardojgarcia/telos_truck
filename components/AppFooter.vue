@@ -30,14 +30,29 @@
       </div>
 
       <ul class="footer-topics-links flex flex-col pt-4 bg-green-950">
-        <li><Icon name="ri:reddit-line" class="mr-2" /> Reddit</li>
-        <li><Icon name="ri:discord-line" class="mr-2" />Discord</li>
-        <li class="fa-brands fa-twitter">Youtube</li>
-        <li class="fa-brands fa-instagram">Instagram</li>
+        <NuxtLink to="reddit.com" class="hover:text-green-400 duration-150">
+          <Icon name="ri:reddit-line" class="mr-2" /> Reddit
+          <Icon name="ri:arrow-right-up-line" />
+        </NuxtLink>
+        <NuxtLink to="discord.com" class="hover:text-green-400 duration-150">
+          <Icon name="ri:discord-line" class="mr-2" />Discord<Icon
+            name="ri:arrow-right-up-line"
+          />
+        </NuxtLink>
+        <NuxtLink to="youtube.com" class="hover:text-green-400 duration-150">
+          <Icon name="ri:youtube-line" class="mr-2" />Youtube<Icon
+            name="ri:arrow-right-up-line"
+          />
+        </NuxtLink>
+        <NuxtLink to="instagram.com" class="hover:text-green-400 duration-150">
+          <Icon name="ri:instagram-line" class="mr-2" />Instagram<Icon
+            name="ri:arrow-right-up-line"
+          />
+        </NuxtLink>
       </ul>
     </div>
 
-    <div class="contact flex flex-col shadow-xl">
+    <div class="contact flex flex-col shadow-2xl">
       <div class="self-start mb-8">
         <strong class="footer-strong text-5xl text-white">Pre-Order</strong>
       </div>

@@ -4,9 +4,9 @@ import AppFeatures from "/components/AppFeatures.vue";
 import AppSpecs from "/components/AppSpecs.vue";
 import AppPerformance from "/components/AppPerformance.vue";
 import AppConfiguration from "/components/AppConfiguration.vue";
-import AppFlexibile from "/components/AppFlexible.vue"
-import AppFooter from "/components/AppFooter.vue"
-import AppGallery from "/components/AppGallery.vue"
+import AppFlexibile from "/components/AppFlexible.vue";
+import AppFooter from "/components/AppFooter.vue";
+import AppGallery from "/components/AppGallery.vue";
 </script>
 
 <template>
@@ -15,11 +15,15 @@ import AppGallery from "/components/AppGallery.vue"
     <AppFeatures />
     <AppSpecs />
     <AppPerformance />
-    <AppConfiguration/>
-<AppFlexibile/>
-<AppGallery/>
-<AppFooter/>
+    <AppConfiguration />
+    <AppFlexibile />
+    <AppGallery />
+    <AppFooter />
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+* {
+  overflow: hidden;
+}
+</style>
