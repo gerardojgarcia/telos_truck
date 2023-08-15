@@ -7,8 +7,8 @@
 <template >
 
 
-<div id="flexibility" class="flexibilty grid grid-cols-1 py-32 space-y-24">
-  <div class="flex space-x-32 px-52">
+<div id="flexibility" class="flexibilty grid grid-cols-1 py-32 space-y-24" data-aos="fade-up" data-aos-duration="1000">
+  <div class="flex space-x-32 px-52" data-aos="fade-left" data-aos-duration="1500">
 <nuxt-img src="/telos14.png" sizes="lg:35vw"></nuxt-img>
 <div class="flex flex-col self-center">
 <strong class="text-5xl text-black mb-12 font-thin">Room to Roam</strong>

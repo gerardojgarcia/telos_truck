@@ -50,6 +50,7 @@ const nextImage = () => {
 
     <div class="hero__image " >
       <nuxt-img
+      preload
         :src="currentImage"
         sizes="sm:25vw md:50vw lg:100vw"
         width="1400px"
