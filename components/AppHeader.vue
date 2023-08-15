@@ -6,11 +6,13 @@ import AppLinkButton from "/components/AppLinkButton.vue";
   <header
     class="flex space-between bg-green-950 px-4 items-center fixed w-full top-0 z-10"
   >
-    <nuxt-img
-      src="/TELOS_logo_small.png"
-      sizes="sm:50vw lg:5vw"
-      class="bg-transparent"
-    ></nuxt-img>
+    <a href="/" class="bg-transparent">
+      <nuxt-img
+        src="/TELOS_logo_small.png"
+        sizes="sm:50vw lg:15vw"
+        class="bg-transparent"
+      />
+    </a>
 
     <nav
       class="sm:hidden md:flex space-x-6 space-evenly items-center bg-transparent md:w-full"
@@ -20,7 +22,7 @@ import AppLinkButton from "/components/AppLinkButton.vue";
       <NuxtLink to="/" class="nav-link">Configurations</NuxtLink>
       <NuxtLink to="/" class="nav-link">Features</NuxtLink>
       <NuxtLink to="/" class="nav-link">Team</NuxtLink>
-      <NuxtLink to="/" class="nav-link">Gallery</NuxtLink>
+      <NuxtLink to="#gallery" class="nav-link">Gallery</NuxtLink>
       <NuxtLink to="/" class="nav-link">Specs</NuxtLink>
 
       <AppLinkButton id="nav-link-btn" />

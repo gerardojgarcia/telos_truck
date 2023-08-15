@@ -85,8 +85,8 @@ h6 {
 }
 
 .image-container {
-  max-width: 45vw;
-  max-height: 60vh;
+  max-width: 55rem;
+  max-height: 70rem;
   object-fit: contain;
 }
 
