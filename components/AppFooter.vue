@@ -42,7 +42,7 @@
      </ul>
    </div>
 
-   <div class="contact flex flex-col">
+   <div class="contact flex flex-col ">
      <div class="self-start mb-8">
        <strong class="footer-strong text-5xl text-white">Pre-Order</strong>
      </div>

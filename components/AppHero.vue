@@ -27,7 +27,7 @@ const nextImage = () => {
 </script>
 
 <template>
-  <div id="hero" class="bg-white flex relative mt-16" data-aos="fade-in" data-aos-duration="1000">
+  <div id="hero" class="bg-white flex  relative mt-16" data-aos="fade-in" data-aos-duration="1000">
     <div class="hero__text bg-green-950 flex flex-col  " data-aos="fade-right" data-aos-duration="3000">
       <div class="hero__text-title z-6 bg-transparent" >
         <h1 class="text-7xl uppercase bg-transparent">Telos</h1>
@@ -51,7 +51,7 @@ const nextImage = () => {
     <div class="hero__image " >
       <nuxt-img
         :src="currentImage"
-        sizes="sm:100vw md:50vw lg:100vw"
+        sizes="sm:25vw md:50vw lg:100vw"
         width="1400px"
         height="1000px"
 
@@ -96,5 +96,11 @@ const nextImage = () => {
   background-color: grey;
   height: 1px;
   width: 17rem;
+}
+
+@@media screen and (max-width: 800px) {
+  .hero__text-title {
+    transform: translateY(0rem) translateX(0rem);
+  }
 }
 </style>

@@ -4,8 +4,10 @@ import AppLinkButton from "/components/AppLinkButton.vue";
 
 <template>
   <header class="flex space-between bg-green-950 px-4 items-center fixed w-full top-0 z-10">
-    <nuxt-img src="/TELOS_logo_small.png" sizes="lg:5vw" class="bg-transparent"></nuxt-img>
-    <nav class="flex space-x-6 space-evenly items-center bg-transparent w-full ">
+    <nuxt-img src="/TELOS_logo_small.png" sizes="sm:50vw lg:5vw" class="bg-transparent"></nuxt-img>
+
+
+    <nav class="sm:hidden md:flex space-x-6 space-evenly items-center bg-transparent md:w-full ">
       <NuxtLink to="#specs" class="nav-link duration-200">Size</NuxtLink>
       <NuxtLink to="/" class="nav-link">Performance </NuxtLink>
       <NuxtLink to="/" class="nav-link">Configurations</NuxtLink>
