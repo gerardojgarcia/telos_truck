@@ -11,18 +11,35 @@ const partners = ref([
     name: "Wall Street Journal",
   },
   {
-    id: 2,
+    id: 3,
     logo: "/pngwing.com.png",
     name: "TechCrunch",
-
-  }
+  },
+  {
+    id: 4,
+    logo: "/pngwing.com.png",
+    name: "TechCrunch",
+  },
+  {
+    id: 5,
+    logo: "/pngwing.com.png",
+    name: "TechCrunch",
+  },
 ]);
 </script>
 <template>
   <div class="flex space-x-4">
-    <div class="partner flex items-center" v-for="partner in partners" :key="partner.id">
-      <nuxt-img :src="partner.logo" sizes="sm:90vw lg:25vw" format="webp" :alt="partner.name"></nuxt-img>
-
+    <div
+      class="partner flex items-center"
+      v-for="partner in partners"
+      :key="partner.id"
+    >
+      <nuxt-img
+        :src="partner.logo"
+        sizes="sm:90vw lg:25vw"
+        format="webp"
+        :alt="partner.name"
+      ></nuxt-img>
     </div>
   </div>
 </template>
