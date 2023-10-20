@@ -1,12 +1,18 @@
 <script setup lang="ts">
-const images = ref(["/truck11.webp", "/truck2.webp", "/truck9.webp", "/truck5.webp"]);
+const images = ref([
+  "/truck11.webp",
+  "/truck2.webp",
+  "/truck9.webp",
+  "/truck5.webp",
+]);
 
 const activeIndex = ref(0);
 
 const currentImage = computed(() => images.value[activeIndex.value]);
 
 const prevImage = () => {
-  activeIndex.value = (activeIndex.value - 1 + images.value.length) % images.value.length;
+  activeIndex.value =
+    (activeIndex.value - 1 + images.value.length) % images.value.length;
 };
 
 const nextImage = () => {
@@ -61,10 +67,18 @@ const nextImage = () => {
         data-aos="fade-left"
       >
         <button class="bg-transparent">
-          <Icon name="ri:arrow-left-s-line" id="arrow-left" @click="prevImage" />
+          <Icon
+            name="ri:arrow-left-s-line"
+            id="arrow-left"
+            @click="prevImage"
+          />
         </button>
         <button class="bg-transparent">
-          <Icon name="ri:arrow-right-s-line" id="arrow-right" @click="nextImage" />
+          <Icon
+            name="ri:arrow-right-s-line"
+            id="arrow-right"
+            @click="nextImage"
+          />
         </button>
         <div class="line-div"></div>
       </div>
