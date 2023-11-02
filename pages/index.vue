@@ -15,11 +15,11 @@ import AppPartners from "/components/AppPartners.vue";
   <div>
     <AppHero />
     <AppFeatures />
+    <AppPartners />
     <AppSpecs />
     <AppPerformance />
     <AppConfiguration />
     <AppFlexibile />
-    <AppPartners />
     <AppGallery />
     <AppFooter />
   </div>
