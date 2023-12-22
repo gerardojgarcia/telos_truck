@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/image',
     'nuxt-icon',
+	'nuxt-gtag'
     
 
   ],
@@ -38,6 +39,11 @@ export default defineNuxtConfig({
 			crawlLinks: true,
 		}
 	},
+
+	gtag: {
+		id: 'G-BWCRRPEGZ2'
+	  }
+
 
 
 
