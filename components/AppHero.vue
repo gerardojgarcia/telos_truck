@@ -1,18 +1,19 @@
 <script setup lang="ts">
-const images = ref([
-  "/truck11.webp",
-  "/truck2.webp",
-  "/truck9.webp",
-  "/truck5.webp",
-]);
+import truck6 from "/truck6.webp";
+import truck7 from "/truck7.webp";
+import truck8 from "/truck8.webp";
+import truck4 from "/truck4.webp";
+import truck11 from "/truck11.webp";
+import truck1 from "/truck1.webp";
+
+const images = ref(["/truck11.webp", "/truck9.webp", "/truck2.webp"]);
 
 const activeIndex = ref(0);
 
 const currentImage = computed(() => images.value[activeIndex.value]);
 
 const prevImage = () => {
-  activeIndex.value =
-    (activeIndex.value - 1 + images.value.length) % images.value.length;
+  activeIndex.value = (activeIndex.value - 1 + images.value.length) % images.value.length;
 };
 
 const nextImage = () => {
@@ -67,18 +68,10 @@ const nextImage = () => {
         data-aos="fade-left"
       >
         <button class="bg-transparent">
-          <Icon
-            name="ri:arrow-left-s-line"
-            id="arrow-left"
-            @click="prevImage"
-          />
+          <Icon name="ri:arrow-left-s-line" id="arrow-left" @click="prevImage" />
         </button>
         <button class="bg-transparent">
-          <Icon
-            name="ri:arrow-right-s-line"
-            id="arrow-right"
-            @click="nextImage"
-          />
+          <Icon name="ri:arrow-right-s-line" id="arrow-right" @click="nextImage" />
         </button>
         <div class="line-div"></div>
       </div>
